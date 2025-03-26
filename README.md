@@ -2,15 +2,14 @@
 
 Documentation
 
-NOTEBOOKS
+### NOTEBOOKS
 
-This solution is a full ETL pipeline written in Python using **Pandas** and **SQLAlchemy** to load the **Olist e-commerce dataset** (from CSV files) into a **SQL Server database**.
+#### This solution is a full ETL pipeline written in Python using **Pandas** and **SQLAlchemy** to load the **Olist e-commerce dataset** (from CSV files) into a **SQL Server database**.
 
-Breakdown of what's happening step by step:
+#### Breakdown of what's happening step by step:
 
 
-######MAIN NOTEBOOK######
----
+### MAIN NOTEBOOK
 
 ## 🔧 **1. Imports and Environment Setup**
 ```python
@@ -161,7 +160,8 @@ df_product_category_name_translation.loc[len(...)] = ['desconhecida', 'unknown']
 
 ---
 
-########ADDITIONAL NOTEBOOKS #####################
+### ADDITIONAL NOTEBOOKS
+
 ---
 
 ## 🧩 **1. `read_env_file.ipynb`**
